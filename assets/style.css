@@ -28,7 +28,7 @@
         height: 75px;
         padding: 0 125px 0 100px;
     }
-        header img{
+        .logo{
             display: block;
             margin: auto;
         }
@@ -49,6 +49,9 @@
                     header a:hover{
                         color: var(--footer-background);
                     }
+        #menu-icon{
+            display: none;
+        }
 
 /* ------ SOBRE ------ */
     #sobre{
@@ -343,13 +346,25 @@
     }
         /* ------ HEADER ------ */
     #home{
-        display: flex;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 50px;
         padding: 0;
     }
+        .logo{
+            width: 90px;
+            margin: 0;
+        }
         .menu{
             display: none;
         }
-
+        #menu-icon{
+            display: block;
+        }
+            #menu-icon img{
+                display: block;
+                width: 24px;
+            }
         /* ------ SOBRE ------ */
     #sobre{
         padding: 0;
@@ -368,11 +383,10 @@
                 width: 240px;
             }
             .about-text{
-                font-size: 15px;
+                font-size: 14px;
                 margin: 10px 0 0 0;
                 padding: 0 20px 0 20px;
             }
-
         /* ------ HEADER ------ */
 
     #footer{
