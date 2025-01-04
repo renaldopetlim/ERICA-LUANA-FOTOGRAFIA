@@ -337,9 +337,43 @@
     /* SMARTPHONE */
 @media screen and (max-width: 767px) {
     *{
-        padding: 0;
         margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+        /* ------ HEADER ------ */
+    #home{
+        display: flex;
+        padding: 0;
+    }
+        .menu{
+            display: none;
+        }
+
+        /* ------ SOBRE ------ */
+    #sobre{
+        padding: 0;
+    }
+        .about{
+            font-size: 40px;
+        }
+        .about-container{
+            display: block;
+        }
+            .about-container img{
+                display: flex;
+                margin: auto;
+                border-radius: 40px 40px 0 0;
+                width: 240px;
+            }
+            .about-text{
+                font-size: 12px;
+                margin: 10px 0 0 0;
+                padding: 0 10px 0 10px;
+            }
+
+        /* ------ HEADER ------ */
+
     #footer{
         display: none;
     }
@@ -348,8 +382,12 @@
     /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     *{
-        padding: 0;
         margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .menu{
+        display: none;
     }
     #footer{
         display: none;
