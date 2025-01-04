@@ -348,12 +348,12 @@
     #home{
         display: grid;
         grid-template-columns: 50% 50%;
-        height: 50px;
+        height: 60px;
         padding: 0;
     }
         .logo{
-            width: 90px;
-            margin: 0;
+            width: 110px;
+            margin: 0 0 0 10px;
         }
         .menu{
             display: none;
@@ -363,7 +363,7 @@
         }
             #menu-icon img{
                 display: block;
-                width: 24px;
+                width: 28px;
             }
         /* ------ SOBRE ------ */
     #sobre{
