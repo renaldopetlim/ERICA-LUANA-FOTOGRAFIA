@@ -389,8 +389,28 @@
                 margin: 10px 0 0 0;
                 padding: 0 20px 0 20px;
             }
-        /* ------ HEADER ------ */
+        /* ------ PAINEL DE FOTOS ------ */
+    #portifolio{
+        margin: 0 15px 0 15px;
+    }
+    #about-second{
+        padding: 0;
+    }
+        .about-second-text{
+            font-size: 14px;
+            padding: 0 20px 0 20px;
+            margin: 10px 0 0 0;
+        }
+        /* ------  ------ */
+    #what{
+        padding: 0;
+    }
 
+
+
+
+
+        /* ------  ------ */
     #footer{
         display: none;
     }
