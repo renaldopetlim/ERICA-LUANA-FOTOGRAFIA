@@ -442,13 +442,14 @@
             text-align: center;
         }
         .packs{
-            display: block;
+            display: flex;
+            transition: 0.5s ease-in-out;
         }
                                     .prev2, .next2{
                                         display: flex;
                                     }
         .packs div{
-            margin: 15px 40px 15px 40px;
+            margin: 15px 10px 15px 10px;
             border: 2px solid #745237;
             border-radius: 25px;
         }
@@ -474,7 +475,7 @@
             margin: 0;
             padding-top: 0;
         }
-        /* ------  ------ */
+        /* ------ FOOTER ------ */
     #footer{
         display: none;
     }
