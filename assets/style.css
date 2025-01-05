@@ -199,6 +199,9 @@
             .packImages img{
                 width: 240px;
             }
+                                    .prev2, .next2, .prev3, .next3{
+                                        display: none;
+                                    }
         .packs{
             display: flex;
             align-items: center;
@@ -415,7 +418,7 @@
         text-align: center;
     }
         .what-sections img{
-            width: 310px;
+            width: 280px;
         }
         .what-title{
             font-size: 24px;
@@ -428,11 +431,48 @@
             font-size: 16px;
             border-radius: 0 0 25px 25px;
         }
-
-
-
-
-
+        /* ------ INVESTIMENTO ------ */
+    #investimento{
+        padding: 0 15px 0 15px;
+    }
+        #fontTitle{
+            display: flex;
+            font-size: 30px;
+            text-align: center;
+        }
+        .packs{
+            display: block;
+        }
+                                    .prev2, .next2{
+                                        display: flex;
+                                    }
+        .packs div{
+            margin: 15px 40px 15px 40px;
+            border: 2px solid #745237;
+            border-radius: 25px;
+        }
+                                    .prev3, .next3{
+                                        display: flex;
+                                    }
+        /* ------ AGENDAMENTO ------ */
+    .schedule-text{
+        font-size: 14px;
+        margin: 0;
+        padding-top: 0;
+    }
+    .receipt-text{
+        font-size: 14px;
+        margin: 0;
+        padding-top: 0;
+    }
+    #contato{
+        padding: 0 15px 0 15px;
+    }
+        .payment-text{
+            font-size: 14px;
+            margin: 0;
+            padding-top: 0;
+        }
         /* ------  ------ */
     #footer{
         display: none;
