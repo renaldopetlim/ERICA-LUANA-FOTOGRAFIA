@@ -359,11 +359,13 @@
             display: none;
         }
         #menu-icon{
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: end;
         }
             #menu-icon img{
-                display: block;
                 width: 28px;
+                margin: 0 25px 0 0;
             }
         /* ------ SOBRE ------ */
     #sobre{
