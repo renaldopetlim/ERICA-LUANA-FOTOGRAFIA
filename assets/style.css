@@ -401,10 +401,33 @@
             padding: 0 20px 0 20px;
             margin: 10px 0 0 0;
         }
-        /* ------  ------ */
+        /* ------ PORQUÊ ------ */
     #what{
-        padding: 0;
+        padding: 0 15px 0 15px;
     }
+        .what{
+            display: flex;
+            font-size: 36px;
+            text-align: center;
+        }
+    .what-sections{
+        display: block;
+        text-align: center;
+    }
+        .what-sections img{
+            width: 310px;
+        }
+        .what-title{
+            font-size: 24px;
+            border-radius: 25px 25px 0 0;
+            list-style: none;
+            padding: 10px 0 0 0;
+            margin-top: 0;
+        }
+        .what-text{
+            font-size: 16px;
+            border-radius: 0 0 25px 25px;
+        }
 
 
 
