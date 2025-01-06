@@ -199,9 +199,7 @@
             .packImages img{
                 width: 240px;
             }
-                                    .prev2, .next2, .prev3, .next3{
-                                        display: none;
-                                    }
+
         .packs{
             display: flex;
             align-items: center;
@@ -441,21 +439,18 @@
             font-size: 30px;
             text-align: center;
         }
+            .packImages{
+                display: none;
+            }
         .packs{
-            display: flex;
+            display: block;
             transition: 0.5s ease-in-out;
         }
-                                    .prev2, .next2{
-                                        display: flex;
-                                    }
-        .packs div{
-            margin: 15px 10px 15px 10px;
-            border: 2px solid #745237;
-            border-radius: 25px;
-        }
-                                    .prev3, .next3{
-                                        display: flex;
-                                    }
+            .packs div{
+                margin: 15px 10px 15px 10px;
+                border: 2px solid #745237;
+                border-radius: 25px;
+            }
         /* ------ AGENDAMENTO ------ */
     .schedule-text{
         font-size: 14px;
