@@ -120,6 +120,10 @@
                         border-radius: 25px;
                     }
 
+    #portfolioMobile{
+        display: none;
+    }
+
 /* ------ SOBRE 2.0 ------ */
     #about-second{
         padding: 0 125px 0 125px;
@@ -392,8 +396,35 @@
             }
         /* ------ PAINEL DE FOTOS ------ */
     #portifolio{
-        margin: 0 15px 0 15px;
+        display: none;
     }
+
+    #portfolioMobile{
+        display: flex;
+        overflow: hidden;
+        --gap: 10px;
+        gap: var(--gap);
+    }
+        #portfolioMobile div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: var(--gap);
+
+            animation: scroll 5s linear infinite;
+        }
+                #portfolioMobile:hover div{
+                    animation-play-state: paused;
+                }
+            #portfolioMobile div img{
+                border-radius: 15px;
+            }
+    @keyframes scroll {
+        to {
+            transform: translateX(calc(-100% - var(--gap)));
+        }
+    }
+            /* ------ */
     #about-second{
         padding: 0;
     }
