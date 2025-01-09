@@ -96,10 +96,15 @@
                 transition: 0.5s ease-in-out;
             }
                 .carousel img{
-                    width: 280px;
-                    padding: 0 10px 0 0;
                     border-radius: 25px;
+                    padding: 0 10px 0 0;
                 }
+                    .vert{
+                        width: 240px;
+                    }
+                    .hori{
+                        height: 240px;
+                    }
             #portifolio button{
                 position: absolute;
                 top: 50%;

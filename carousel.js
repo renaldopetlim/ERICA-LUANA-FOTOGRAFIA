@@ -20,5 +20,4 @@ prevButton.addEventListener('click', () => {
     updateCarousel();
 }); // Adiciona a funcionalidade "PREV" ao botão de navegação.
 
-
 window.addEventListener('resize', updateCarousel);
