@@ -411,7 +411,7 @@
             align-items: center;
             gap: var(--gap);
 
-            animation: scroll 5s linear infinite;
+            animation: scroll 60s linear infinite;
         }
                 #portfolioMobile:hover div{
                     animation-play-state: paused;
