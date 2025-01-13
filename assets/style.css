@@ -512,7 +512,7 @@
         /* ------ FOOTER ------ */
     #footer{
         display: flex;
-        height: 20px;
+        height: 22px;
     }
         .textCopy{
             display: none;
