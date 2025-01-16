@@ -436,21 +436,23 @@
     #contato{
         padding: 0 15px 0 15px;
     }
-        .button-talk{
-            width: 185px;
+        .container-button{
+            padding: 5px 0 5px 0;
         }
-        .button-insta{
-            font-weight: 400;
-            width: 140px;
+            .button-talk{
+                width: 185px;
+            }
+            .button-insta{
+                font-weight: 400;
+                width: 140px;
+            }
+            .button-whats{
+                font-weight: 400;
+                width: 240px;
+            }
+        .portfolio-finaly{
+            padding: 5px 0 5px 0;
         }
-        .button-whats{
-            font-weight: 400;
-            width: 240px;
-        }
-
-    .portfolio-finaly{
-        padding: 5px 0 5px 0;
-    }
         /* ------ FOOTER ------ */
     #footer{
         display: flex;
