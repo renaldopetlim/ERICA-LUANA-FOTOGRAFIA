@@ -187,55 +187,8 @@
             margin: 15px 0 15px 0;
         }
             .packImages img{
-                width: 240px;
+                width: 320px;
             }
-
-        .packs{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            margin: 15px 0 15px 0;
-        }
-            .packs div{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                margin: 15px 0 15px 0;
-            }
-                .packs div h3{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    font-size: 18px;
-                    font-weight: 400;
-                    color: var(--background-color);
-                    background-color: var(--ballon-beige);
-                    width: 125px;
-                    height: 35px;
-                    border-radius: 10px;
-                    margin: 10px;
-                }
-                .packs div p{
-                    font-size: 18px;
-                    padding: 5px 0 5px 0;
-                }
-                .packs div a button{
-                    font-size: 18px;
-                    margin: 10px 0 10px 0;
-                    width: 110px;
-                    height: 36px;
-                    border-radius: 25px;
-                    cursor: pointer;
-                    border: 2px solid #745237;
-                }
-
-        .schedule{
-            font-size: 40px;
-            color: var(--ballon-beige);
-            display: flex;
-            justify-content: center;
-            margin: 15px 0 15px 0;
-        }
             .schedule-text{
                 font-size: 20px;
                 margin: 0 60px 0 60px;
@@ -243,49 +196,61 @@
                 text-align: justify;
             }
 
-        .receipt{
-            font-size: 30px;
-            color: var(--ballon-beige);
-            display: flex;
-            justify-content: center;
-            margin: 15px 0 15px 0;
-        }
-            .receipt-text{
-                font-size: 20px;
-                margin: 0 60px 0 60px;
-                padding: 8px 0 8px 0;
-                text-align: justify;
-            }
-
     #contato{
-        padding: 0 125px 0 125px;
+        padding: 0 75px 0 75px;
     }
-        .payment{
-            font-size: 40px;
-            color: var(--ballon-beige);
-            display: flex;
-            justify-content: center;
-            margin: 15px 0 15px 0;
+        .cont2{
+            padding: 15px 0 15px 0;
         }
-            .payment-text{
-                font-size: 20px;
-                padding: 8px 0 8px 0;
-                text-align: justify;
-            }
+        #container-contact{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
             .container-button{
                 display: flex;
                 justify-content: center;
                 padding: 5px 0 20px 0;
                 text-decoration: none;
             }
-                .payment-button{
+                .button-talk{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    font-size: 18px;
-                    font-weight: 300;
+                    font-size: 16px;
+                    font-weight: bolder;
                     color: var(--background-color);
                     background-color: var(--ballon-beige);
+                    width: 270px;
+                    height: 32px;
+                    border-radius: 10px;
+                    border: none;
+                    margin: 10px;
+                    cursor: pointer;
+                }
+                .button-whats{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--background-color);
+                    background-color: #25D366;
+                    width: 270px;
+                    height: 32px;
+                    border-radius: 10px;
+                    border: none;
+                    margin: 10px;
+                    cursor: pointer;
+                }
+                .button-insta{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--background-color);
+                    background: linear-gradient(-45deg, #833ab4, #fd1d1d, #fcb045);
                     width: 270px;
                     height: 32px;
                     border-radius: 10px;
@@ -462,22 +427,8 @@
             .packImages{
                 display: none;
             }
-        .packs{
-            display: block;
-            transition: 0.5s ease-in-out;
-        }
-            .packs div{
-                margin: 15px 30px 15px 30px;
-                border: 2px solid #745237;
-                border-radius: 25px;
-            }
         /* ------ AGENDAMENTO ------ */
     .schedule-text{
-        font-size: 14px;
-        margin: 0;
-        padding-top: 0;
-    }
-    .receipt-text{
         font-size: 14px;
         margin: 0;
         padding-top: 0;
@@ -485,11 +436,21 @@
     #contato{
         padding: 0 15px 0 15px;
     }
-        .payment-text{
-            font-size: 14px;
-            margin: 0;
-            padding-top: 0;
+        .button-talk{
+            width: 185px;
         }
+        .button-insta{
+            font-weight: 400;
+            width: 140px;
+        }
+        .button-whats{
+            font-weight: 400;
+            width: 240px;
+        }
+
+    .portfolio-finaly{
+        padding: 5px 0 5px 0;
+    }
         /* ------ FOOTER ------ */
     #footer{
         display: flex;
