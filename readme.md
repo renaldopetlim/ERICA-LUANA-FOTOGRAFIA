@@ -14,8 +14,10 @@ Link: https://ericaluanafotografia.netlify.app/
 
 ### Responsividade Desktop:
 <img src="/assets/images/readme/responsividade-desktop.png" width="480px"> <br>
+
 <img src="/assets/images/readme/responsividade-desktop-2.png" width="480px"> <br>
+
 <img src="/assets/images/readme/responsividade-desktop-3.png" width="480px">
 
 ### Responsividade Mobile:
-<img src="/assets/images/readme/responsividade-mobile.png" width="240px"> <img src="/assets/images/readme/responsividade-mobile-2.png" width="240px">
+<img src="/assets/images/readme/responsividade-mobile.jpeg" width="240px"> <img src="/assets/images/readme/responsividade-mobile-2.jpeg" width="240px">
