@@ -13,7 +13,7 @@ Tecnologias Usadas: <br>
 Link: https://ericaluanafotografia.netlify.app/
 
 ### Responsividade Desktop:
-<img src="/assets/images/readme/responsividade-desktop.png" width="480px"> <img src="/assets/images/readme/responsividade-desktop-2.png" width="480px"> <br>
+<img src="/assets/images/readme/responsividade-desktop.png" width="480px">       <img src="/assets/images/readme/responsividade-desktop-2.png" width="480px"> <br>
 
 ### Responsividade Mobile:
-<img src="/assets/images/readme/responsividade-mobile-1.jpeg" width="240px"> <img src="/assets/images/readme/responsividade-mobile-2.jpeg" width="240px">
+<img src="/assets/images/readme/responsividade-mobile-1.jpeg" width="240px">       <img src="/assets/images/readme/responsividade-mobile-2.jpeg" width="240px">
