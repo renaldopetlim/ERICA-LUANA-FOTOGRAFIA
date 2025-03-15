@@ -1,19 +1,41 @@
-# ÉRICA LUANA FOTOGRAFIA (DESKTOP/MOBILE)
+# ✨ Página de Fotografia - Érica Luana
+Bem-vindo ao repositório da página de fotografia de Érica Luana! Este projeto foi desenvolvido para apresentar o portfólio e serviços da fotógrafa de forma moderna e interativa.
 
-Essa é uma Landing Page de uma fotógrafa da cidade de Ananindeua-PA. A página foi desenvolvida a partir de um portfólio em PDF criado pela mesma, com essa LP sendo a segunda versão do PDF.
+## 📝 Sobre o Projeto:
+Este site foi criado para divulgar o trabalho de Érica Luana, proporcionando uma experiência envolvente para os visitantes, onde podem conhecer mais sobre a fotógrafa, visualizar seu portfólio e entrar em contato para agendamentos.
 
-## Sobre a Pagina
-Landing Page dividida em 5 seções distintas, com objetivo de passar informações sobre os serviços de fotografia para os futuros clientes.
+### 🌐 Demonstração:
+Confira o site online: [(https://ericaluanafotografia.netlify.app/)](#)
 
-Tecnologias Usadas: <br>
-• HTML <br>
-• CSS <br>
-• JavaScript
+## 📚 Tecnologias Utilizadas:
+- HTML5
+- CSS3
+- JavaScript (para funcionalidade do carrossel e interações dinâmicas)
+
+## 📝 Estrutura do Projeto
+```
+/
+├── assets/
+│   ├── images/ (imagens utilizadas no site)
+│   ├── icons/ (icones de navegação e redes sociais)
+├── carroussel-infinite.js (script do carrossel de imagens)
+├── index.html (página principal do site)
+├── styles.css (estilização do site)
+└── README.md (documentação do projeto)
+```
+
+## 💬 Contato:
+- **Fotógrafa:** [@ericaluanaph](https://www.instagram.com/ericaluanaph/)
+- **Desenvolvido por:** [Renaldo Petlim](https://github.com/renaldopetlim)
+
+Se tiver alguma sugestão ou feedback, fique à vontade para contribuir!
+
+🎨 "Eternizando momentos através da fotografia!" 🌟
 
 Link: https://ericaluanafotografia.netlify.app/
 
 ### Responsividade Desktop:
-<img src="/assets/images/readme/responsividade-desktop.png" width="480px"> <img src="/assets/images/readme/responsividade-desktop-2.png" width="480px"> <br>
+<img src="/assets/images/readme/responsividade-desktop.png" width="720px"> <img src="/assets/images/readme/responsividade-desktop-2.png" width="720px"> <br>
 
 ### Responsividade Mobile:
-<img src="/assets/images/readme/responsividade-mobile-1.jpeg" width="240px"> <img src="/assets/images/readme/responsividade-mobile-2.jpeg" width="240px">
+<img src="/assets/images/readme/responsividade-mobile-1.jpeg" width="320px"> <img src="/assets/images/readme/responsividade-mobile-2.jpeg" width="320px">
